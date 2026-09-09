@@ -1,3 +1,5 @@
+# 생일축하 함수
+
 def happybirthday(name:str) -> None:
     print("안녕하세요")
     print(name + "님의 생일을 축하드립니다.")
