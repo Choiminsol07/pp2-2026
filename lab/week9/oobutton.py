@@ -15,7 +15,7 @@ def on_btn1_clicked(event):
     print(f"버튼1이 클릭되었습니다: {event}")
     label.config(text=f"버튼1이 클릭되었습니다: {event}")
 
-btn1 = tk.Button(root, text="클릭해볼까요?")
+btn1 = tk.Button(root, text="클릭해볼까요?", width="100", height="50", fg = "red", bg = "black")
 btn1.bind("<Button-1>", on_btn1_clicked)
 btn1.pack()
 
